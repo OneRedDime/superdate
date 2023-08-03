@@ -61,10 +61,8 @@ clears if a new second has ticked over since the previous call.
     >>> parse_date('saturday at noon')
     datetime.datetime(2023, 3, 4, 12, 0)
 
+    # Same as 'next January
     >>> parse_date('January')
-    datetime.date(2023, 1, 26)
-
-    >>> parse_date('January next year')
     datetime.date(2024, 1, 1)
 
 
